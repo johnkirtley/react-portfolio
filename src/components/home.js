@@ -1,10 +1,23 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 
 
 const Home = () => {
     return (
-        <div>
-            Home
+        <div className="home-container">
+            <div>
+                <h2 className="home-name">John Kirtley</h2>
+                <h3 className="fullstack-dev">Fullstack Web Developer</h3>
+            </div>
+            <div className="social-icons">
+                <a href="https://linkedin.com/in/johnkirtley16" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                <a href="https://github.com/johnkirtley" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                <a href="mailto:kirtleyj16@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
+
+
+            </div>
         </div>
     )
 }

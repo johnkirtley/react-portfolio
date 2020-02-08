@@ -1,3 +1,20 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+Html {
+    Font-size: 62.5%; // 1rem = 10px
+}
+
+Section {
+    Padding: 4% 0;
+}
+
+
+
 body {
     background-color: yellow;
 }
