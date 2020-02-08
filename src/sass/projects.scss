@@ -1,0 +1,33 @@
+.projects-container {
+
+    .project {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+
+        img {
+            // max-width: 75%;
+            // overflow: hidden;
+        }
+
+        .info {
+            display: flex;
+            flex-flow: column nowrap;
+            font-size: 3rem;
+
+            .project-links {
+
+                button {
+                    padding: 5% 7%;
+                    margin: 0 5%;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
