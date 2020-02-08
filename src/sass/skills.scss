@@ -1,0 +1,33 @@
+.skills-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+
+    .top-row,
+    .bottom-row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10%;
+
+        div {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+
+            svg {
+                font-size: 10rem;
+
+            }
+        }
+    }
+
+    h2 {
+        font-size: 12rem;
+        padding: 20% 0;
+    }
+
+}

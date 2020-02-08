@@ -1,0 +1,25 @@
+.resume-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    .download-button {
+        margin: 3% 0;
+
+        button {
+            padding: 3% 20%;
+            border-radius: 10px;
+
+            &:hover {
+                border: 2px solid blue;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 2rem;
+
+            }
+        }
+    }
+}
