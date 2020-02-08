@@ -10,6 +10,7 @@ import Nav from './components/nav';
 import Home from './components/home';
 import Skills from './components/skills';
 import Projects from './components/projects';
+import Resume from './components/resume';
 import Contact from './components/contact';
 
 library.add(fab)
@@ -21,6 +22,7 @@ function App() {
       <Switch>
         <Route path='/skills' component={Skills} />
         <Route path='/projects' component={Projects} />
+        <Route path='/resume' component={Resume} />
         <Route path='/contact' component={Contact} />
         <Route path='/' component={Home} />
       </Switch>
