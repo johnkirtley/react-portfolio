@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+
+    .home-name {
+        padding: 0;
+        font-size: 12rem;
+        padding-bottom: 10%;
+    }
+
+    .fullstack-dev {
+        text-align: center;
+        font-size: 4rem;
+        padding-bottom: 10%;
+    }
+
+    .social-icons {
+        font-size: 15rem;
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            svg {
+                padding: 0 5%;
+
+            }
+        }
+    }
+}
