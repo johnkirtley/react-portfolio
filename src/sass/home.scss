@@ -8,13 +8,15 @@
     .home-name {
         padding: 0;
         font-size: 12rem;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
+        color: $complement-green;
     }
 
     .fullstack-dev {
         text-align: center;
         font-size: 4rem;
         padding-bottom: 10%;
+        color: $complement-green;
     }
 
     .social-icons {
@@ -22,12 +24,31 @@
 
         a {
             text-decoration: none;
-            color: black;
+            color: $complement-green;
 
             svg {
                 padding: 0 5%;
 
             }
+
+            &:hover {
+
+                .linkedin {
+                    color: $linkedin;
+                    transition: 0.4s ease-in-out;
+                }
+
+                .github {
+                    color: $github;
+                    transition: 0.4s ease-in-out;
+                }
+
+                .email {
+                    color: $email;
+                    transition: 0.4s ease-in-out;
+                }
+            }
         }
+
     }
 }

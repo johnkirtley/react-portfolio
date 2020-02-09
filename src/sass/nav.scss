@@ -2,18 +2,24 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background-color: blue;
+    background-color: $main-green;
+    border-bottom: 1px solid white;
 }
 
 h2 {
     padding-left: 3%;
-    font-size: 3rem;
-    margin: 2% 0;
+    font-size: 4rem;
+    margin: 1% 0;
 
 
     a {
         text-decoration: none;
-        color: black;
+        color: $off-white;
+
+        &:hover {
+            color: $complement-green;
+            transition: 0.5s ease-in-out;
+        }
     }
 }
 
@@ -25,12 +31,17 @@ ul {
 
     li {
         list-style: none;
-        padding: 0 2rem;
+        padding: 0 3rem;
 
         a {
             text-decoration: none;
-            color: black;
+            color: $off-white;
             font-size: 3rem;
+
+            &:hover {
+                color: $complement-green;
+                transition: 0.5s ease-in-out;
+            }
 
         }
     }
