@@ -15,8 +15,16 @@
     .fullstack-dev {
         text-align: center;
         font-size: 4rem;
-        padding-bottom: 10%;
+        padding-bottom: 7%;
         color: $complement-green;
+    }
+
+    .Typewriter {
+        @extend .fullstack-dev;
+        color: #b0a160;
+        padding-bottom: 1%;
+        font-weight: bold;
+        font-size: 4rem;
     }
 
     .social-icons {
