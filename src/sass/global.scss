@@ -16,5 +16,7 @@ Section {
 
 
 body {
-    background-color: yellow;
+    background-color: $main-green;
+    font-family: $main-font, monospace;
+    letter-spacing: -0.125rem;
 }
