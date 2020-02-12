@@ -6,6 +6,10 @@
         justify-items: center;
         align-items: center;
 
+        @media(max-width: 800px) {
+            display: block;
+        }
+
         img {
             // max-width: 75%;
             // overflow: hidden;

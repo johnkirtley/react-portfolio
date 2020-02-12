@@ -5,10 +5,19 @@
     align-items: center;
     height: 85vh;
 
+    @media(max-width: 800px) {
+        height: 100%;
+    }
+
     .top-row {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 7%;
+
+        @media(max-width: 800px) {
+            display: block;
+            margin-top: 5%;
+        }
 
         div {
             display: flex;
@@ -16,6 +25,10 @@
             justify-content: center;
             align-items: center;
             font-size: 3rem;
+
+            @media(max-width: 800px) {
+                margin: 20% 0;
+            }
 
             svg {
                 font-size: 10rem;
@@ -100,6 +113,10 @@
         font-size: 12rem;
         padding: 20% 0;
         color: $complement-green;
+
+        @media(max-width: 800px) {
+            display: none;
+        }
     }
 
 }

@@ -4,6 +4,10 @@
     align-items: baseline;
     background-color: $main-green;
     border-bottom: 1px solid white;
+
+    @media(max-width: 800px) {
+        display: none;
+    }
 }
 
 h2 {
@@ -45,4 +49,35 @@ ul {
 
         }
     }
+}
+
+.mobile-menu-icon {
+    font-size: 4rem;
+    margin: 3% 3% 10% 3%;
+    color: $complement-green;
+
+    @media(min-width: 800px) {
+        display: none;
+    }
+}
+
+.menu-true {
+
+    ul {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background-color: $complement-green;
+        height: 100vh;
+        padding-top: 40%;
+
+
+        li {
+            margin: 2% 0;
+        }
+    }
+}
+
+.menu-false {
+    display: none;
 }
