@@ -20,3 +20,37 @@ body {
     font-family: $main-font, monospace;
     letter-spacing: -0.125rem;
 }
+
+.toggle-color {
+    background-color: $complement-green;
+
+    .nav-container {
+        background-color: $complement-green;
+    }
+
+    .mobile-menu-icon {
+        color: $main-green;
+    }
+
+    .menu-true {
+
+        ul {
+            background-color: $main-green;
+
+            a {
+                color: $complement-green;
+            }
+        }
+    }
+
+    .social-icons a {
+        color: $main-green !important;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: $main-green !important;
+    }
+
+}

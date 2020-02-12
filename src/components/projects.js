@@ -10,11 +10,11 @@ const Projects = () => {
                     <div className="project">
                         <img src={project.image} alt="" />
                         <div className="info">
-                            <p>{project.title}</p>
-                            <p>{project.position}</p>
-                            <p>{project.techUsed}</p>
-                            <p>{project.team}</p>
-                            <p>{project.description}</p>
+                            <p><span className="project-label">Name:</span> {project.title}</p>
+                            <p><span className="project-label">Role:</span> {project.position}</p>
+                            <p><span className="project-label">Built With:</span> {project.techUsed}</p>
+                            <p><span className="project-label">Team:</span> {project.team}</p>
+                            <p><span className="project-label">Contribution:</span> {project.description}</p>
                             <div className="project-links">
                                 <button><a href={project.github} target="_blank" rel="noopener noreferrer">Code</a></button>
                                 <button><a href={project.liveSite} target="_blank" rel="noopener noreferrer">Live Site</a></button>

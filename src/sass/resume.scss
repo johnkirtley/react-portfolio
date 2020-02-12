@@ -7,18 +7,24 @@
     .download-button {
         margin: 3% 0;
 
+        @media(max-width: 800px) {
+            width: 65%;
+            margin: 5% auto;
+        }
+
         button {
-            padding: 3% 20%;
+            padding: 1rem 2rem;
             border-radius: 10px;
+            background-color: white;
 
             &:hover {
-                border: 2px solid blue;
+                border: 2px solid $complement-green;
             }
 
             a {
                 text-decoration: none;
                 font-size: 2rem;
-
+                color: $main-green;
             }
         }
     }

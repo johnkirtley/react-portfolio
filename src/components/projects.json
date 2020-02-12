@@ -1,7 +1,7 @@
 {
     "projectData": [{
             "title": "Save The Animals",
-            "positon": "React Developer",
+            "position": "React Developer",
             "techUsed": "React | JavaScript | Sass | Node.js",
             "team": "2 React Developers, 1 Backend Developer, 1 UI Developer",
             "description": "Sample Description",
@@ -11,7 +11,7 @@
         },
         {
             "title": "Save The Animals",
-            "positon": "React Developer",
+            "position": "React Developer",
             "techUsed": "React | JavaScript | Sass | Node.js",
             "team": "2 React Developers, 1 Backend Developer, 1 UI Developer",
             "description": "Sample Description",
@@ -21,7 +21,7 @@
         },
         {
             "title": "Save The Animals",
-            "positon": "React Developer",
+            "position": "React Developer",
             "techUsed": "React | JavaScript | Sass | Node.js",
             "team": "2 React Developers, 1 Backend Developer, 1 UI Developer",
             "description": "Sample Description",
