@@ -1,4 +1,5 @@
 import React from 'react'
+import { useChangeMode } from '../hooks/useChangeMode'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import Typewriter from 'typewriter-effect';
@@ -7,6 +8,13 @@ import Typewriter from 'typewriter-effect';
 
 
 const Home = () => {
+    const [changeMode, setChangeMode] = useChangeMode(false)
+
+
+    const toggleMode = (e) => {
+        e.preventDefault();
+        setChangeMode(!changeMode);
+    }
     return (
         <div className="home-container">
             <div>
@@ -26,6 +34,10 @@ const Home = () => {
                 <a href="https://github.com/johnkirtley" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github']} className="github" /></a>
                 <a href="mailto:kirtleyj16@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} className="email" /></a>
             </div>
+            <div className="change-mode__toggle">
+                <div onClick={toggleMode} className={changeMode ? 'toggle toggled' : 'toggle'} />
+            </div>
+            <p style={{ color: 'white', fontSize: '2rem', paddingTop: '0.5%' }}>Change Theme</p>
         </div>
     )
 }
