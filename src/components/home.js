@@ -8,7 +8,7 @@ import Typewriter from 'typewriter-effect';
 
 
 const Home = () => {
-    const [changeMode, setChangeMode] = useChangeMode(false)
+    const [changeMode, setChangeMode] = useChangeMode('color', false)
 
 
     const toggleMode = (e) => {
