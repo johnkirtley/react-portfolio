@@ -5,19 +5,19 @@
             "techUsed": "React | JavaScript | Sass | Node.js",
             "team": "2 React Developers, 1 Backend Developer, 1 UI Developer",
             "description": "Sample Description",
-            "image": "https://images.unsplash.com/photo-1581328493669-71ac1ccfbbe6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "image": "https://savetheanimalsweb28.netlify.com/images/logo.png",
             "liveSite": "https://fervent-aryabhata-ddb2ae.netlify.com/",
-            "github": "https://github.com"
+            "github": "https://github.com/BW-SaveTheAnimalsTeam3/front-end"
         },
         {
-            "title": "Save The Animals",
-            "position": "React Developer",
+            "title": "FarmerPal",
+            "position": "UI Developer",
             "techUsed": "React | JavaScript | Sass | Node.js",
             "team": "2 React Developers, 1 Backend Developer, 1 UI Developer",
-            "description": "Sample Description",
+            "description": "Developed the landing/marketing page for FarmerPal.",
             "image": "https://images.unsplash.com/photo-1581328493669-71ac1ccfbbe6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-            "liveSite": "https://fervent-aryabhata-ddb2ae.netlify.com/",
-            "github": "https://github.com"
+            "liveSite": "https://farmerpal.netlify.com/",
+            "github": "https://github.com/Farm-Fresh-Produce-4/Marketing-Page"
         },
         {
             "title": "Save The Animals",
