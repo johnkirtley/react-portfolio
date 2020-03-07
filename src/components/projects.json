@@ -1,33 +1,33 @@
 {
     "projectData": [{
-            "title": "Save The Animals",
-            "position": "React Developer",
-            "techUsed": "React | JavaScript | Sass | Node.js",
-            "team": "2 React Developers, 1 Backend Developer, 1 UI Developer",
-            "description": "Sample Description",
-            "image": "https://savetheanimalsweb28.netlify.com/images/logo.png",
-            "liveSite": "https://fervent-aryabhata-ddb2ae.netlify.com/",
-            "github": "https://github.com/BW-SaveTheAnimalsTeam3/front-end"
+            "title": "DevDesk Queue",
+            "position": "Front-end Developer (React)",
+            "techUsed": "React | Redux | JavaScript | SASS | Material UI | Git",
+            "team": "3 React Developers, 2 Back-end Developers",
+            "description": "Developed the application's state management using React with Redux and handled login authentication with routing.",
+            "image": "https://i.imgur.com/ReluFBB.png",
+            "liveSite": "https://frontend.kirtleyj16.now.sh/",
+            "github": "https://github.com/bw-devdesk-queue-1/frontend"
+        },
+        {
+            "title": "Game of Thrones Episode Lookup",
+            "position": "Front-end Developer (React)",
+            "techUsed": "React | Context API | JavaScript | Material UI | Axios | Git | 3rd Party API",
+            "team": "Solo Project",
+            "description": "Developed an application that allows you to select a Game of Thrones season and view all the episodes within that selection. ",
+            "image": "https://i.imgur.com/YjOrbZ7.png",
+            "liveSite": "https://game-of-thrones-ecru.now.sh/",
+            "github": "https://github.com/johnkirtley/game-of-thrones"
         },
         {
             "title": "FarmerPal",
-            "position": "UI Developer",
-            "techUsed": "React | JavaScript | Sass | Node.js",
-            "team": "2 React Developers, 1 Backend Developer, 1 UI Developer",
-            "description": "Developed the landing/marketing page for FarmerPal.",
-            "image": "https://images.unsplash.com/photo-1581328493669-71ac1ccfbbe6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "position": "Front-end Developer (Landing Page)",
+            "techUsed": "JavaScript | HTML | CSS | LESS | Git",
+            "team": "1 Front-end UI Developer, 2 React Developers, 1 Back-end Developer, 1 Designer",
+            "description": "Developed the landing page from a design file provided to me by our team's designer.",
+            "image": "https://i.imgur.com/mbv2ltQ.png",
             "liveSite": "https://farmerpal.netlify.com/",
             "github": "https://github.com/Farm-Fresh-Produce-4/Marketing-Page"
-        },
-        {
-            "title": "Save The Animals",
-            "position": "React Developer",
-            "techUsed": "React | JavaScript | Sass | Node.js",
-            "team": "2 React Developers, 1 Backend Developer, 1 UI Developer",
-            "description": "Sample Description",
-            "image": "https://images.unsplash.com/photo-1581328493669-71ac1ccfbbe6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-            "liveSite": "https://fervent-aryabhata-ddb2ae.netlify.com/",
-            "github": "https://github.com"
         }
 
     ]
