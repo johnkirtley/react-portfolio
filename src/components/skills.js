@@ -42,10 +42,10 @@ const Skills = () => {
                     <FontAwesomeIcon icon={faCodeBranch} />
                     <h3>Git</h3>
                 </div>
-                <div className="sql">
+                {/* <div className="sql">
                     <FontAwesomeIcon icon={faDatabase} />
                     <h3>SQL</h3>
-                </div>
+                </div> */}
             </div>
 
         </div>
