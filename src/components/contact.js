@@ -54,6 +54,7 @@ const Contact = (props) => {
                     onChange={e => setEmail(e.target.value)}
                     value={email}
                     className="email"
+                    required
                 />
                 <ValidationError
                     prefix="Email"
@@ -67,6 +68,7 @@ const Contact = (props) => {
                     onChange={e => setMessage(e.target.value)}
                     value={message}
                     className="message"
+                    required
                 />
                 <button type="submit" disabled={isSubmitting} className="submit-button">
                     Submit
