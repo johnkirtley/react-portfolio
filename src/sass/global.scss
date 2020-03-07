@@ -53,4 +53,8 @@ body {
         color: $main-green !important;
     }
 
+    .form-container {
+        background-color: darken($color: $complement-green, $amount: 25);
+    }
+
 }
