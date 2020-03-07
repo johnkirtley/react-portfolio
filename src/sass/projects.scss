@@ -8,24 +8,29 @@
         color: white;
 
         @media(max-width: 800px) {
-            display: block;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+
         }
 
         img {
-            max-width: 100%;
+            max-width: 75%;
+            margin: 5% 0;
             overflow: hidden;
         }
 
         .info {
             display: flex;
             flex-flow: column nowrap;
-            font-size: 2.5rem;
+            font-size: 1.35rem;
             justify-content: center;
             align-items: flex-start;
-            padding-left: 5%;
+            padding: 0 5% 0 1%;
 
             @media(max-width: 800px) {
-                font-size: 1.5rem;
+                font-size: 1.35rem;
                 padding-top: 2%;
             }
 
@@ -45,10 +50,15 @@
                 }
 
                 button {
-                    padding: 3% 5%;
-                    margin: 0 5%;
+                    padding: 0.5rem 2rem;
+                    margin: 0 3%;
                     width: 100%;
                     border-radius: 10px;
+
+                    &:hover {
+                        transition: 0.3s ease-in-out;
+                        background-color: darken($color: lightgrey, $amount: 10);
+                    }
 
                     @media(max-width: 800px) {
                         padding: 1% 1.5%;
@@ -60,7 +70,8 @@
                     a {
                         text-decoration: none;
                         color: black;
-                        font-size: 2rem;
+                        font-size: 1.75rem;
+                        white-space: nowrap;
                     }
                 }
             }

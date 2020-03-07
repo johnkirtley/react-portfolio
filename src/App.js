@@ -3,6 +3,7 @@ import './App.scss';
 import { Route, Switch } from 'react-router-dom';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import { StaticKitProvider } from '@statickit/react';
 
 
 
@@ -17,17 +18,18 @@ library.add(fab)
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <Switch>
-        <Route path='/skills' component={Skills} />
-        <Route path='/projects' component={Projects} />
-        <Route path='/resume' component={Resume} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/' component={Home} />
-      </Switch>
-
-    </div>
+    <StaticKitProvider site="de3e4d40dd43">
+      <div>
+        <Nav />
+        <Switch>
+          <Route path='/skills' component={Skills} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/resume' component={Resume} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/' component={Home} />
+        </Switch>
+      </div>
+    </StaticKitProvider>
   )
 }
 

@@ -8,7 +8,7 @@ const Projects = () => {
             {data.projectData.map(project => (
                 <div className="projects-container">
                     <div className="project">
-                        <img src={project.image} alt="" />
+                        <img src={project.image} alt={project.name} />
                         <div className="info">
                             <p><span className="project-label">Name:</span> {project.title}</p>
                             <p><span className="project-label">Role:</span> {project.position}</p>
