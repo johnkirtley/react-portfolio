@@ -15,11 +15,9 @@ import Contact from './components/contact';
 
 library.add(fab);
 
-function App() {
-	function initializeReactGA() {
-		ReactGA.initialize('UA-132384623-4');
-		ReactGA.pageview('/homepage');
-	}
+function App(props) {
+	ReactGA.initialize('UA-132384623-4');
+	props.history.listen(location => ReactGA.pageview(location.pathname));
 
 	return (
 		<StaticKitProvider site='de3e4d40dd43'>
