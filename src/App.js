@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { StaticKitProvider } from '@statickit/react';
+import ReactGA from 'react-ga';
 
 import Nav from './components/nav';
 import Home from './components/home';
@@ -15,6 +16,11 @@ import Contact from './components/contact';
 library.add(fab);
 
 function App() {
+	function initializeReactGA() {
+		ReactGA.initialize('UA-132384623-4');
+		ReactGA.pageview('/homepage');
+	}
+
 	return (
 		<StaticKitProvider site='de3e4d40dd43'>
 			<div>
