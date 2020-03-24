@@ -15,7 +15,7 @@ import Contact from './components/contact';
 
 library.add(fab);
 
-function App(props) {
+function App() {
 	return (
 		<StaticKitProvider site='de3e4d40dd43'>
 			<div>

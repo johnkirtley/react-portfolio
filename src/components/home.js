@@ -16,13 +16,14 @@ const Home = () => {
 		<div className='home-container'>
 			<div>
 				<h2 className='home-name'>John Kirtley</h2>
-				<h3 className='fullstack-dev'>Frontend Web Developer</h3>
+				<h3 className='fullstack-dev'>Full Stack Web Developer</h3>
 			</div>
 			<Typewriter
 				options={{
 					strings: [
 						'React',
 						'Redux',
+						'Node.js',
 						'JavaScript',
 						'SQL',
 						'HTML/CSS',
