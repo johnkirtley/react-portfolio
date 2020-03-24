@@ -1,122 +1,129 @@
 .skills-container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    height: 85vh;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 85vh;
 
-    @media(max-width: 800px) {
-        height: 100%;
-    }
+	@media (max-width: 800px) {
+		height: 100%;
+	}
 
-    .top-row {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 7%;
+	.top-row {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 7%;
 
-        @media(max-width: 800px) {
-            display: block;
-            margin-top: 5%;
-        }
+		@media (max-width: 800px) {
+			display: block;
+			margin-top: 5%;
+		}
 
-        div {
-            display: flex;
-            flex-flow: column;
-            justify-content: center;
-            align-items: center;
-            font-size: 3rem;
+		div {
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			align-items: center;
+			font-size: 3rem;
 
-            @media(max-width: 800px) {
-                margin: 20% 0;
-            }
+			@media (max-width: 800px) {
+				margin: 20% 0;
+			}
 
-            svg {
-                font-size: 10rem;
+			svg {
+				font-size: 10rem;
+			}
+		}
+	}
 
-            }
-        }
-    }
+	.bottom-row {
+		@extend .top-row;
+		grid-template-columns: repeat(4, 1fr);
+	}
 
-    .bottom-row {
-        @extend .top-row;
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.react {
+		color: $react;
 
-    .react {
-        color: $react;
+		&:hover {
+			color: lighten($react, 20%);
+			transition: 0.3s ease-in-out;
+		}
+	}
 
-        &:hover {
-            color: lighten($react, 20%);
-            transition: 0.3s ease-in-out;
-        }
-    }
+	.javascript {
+		color: $javascript;
 
-    .javascript {
-        color: $javascript;
+		&:hover {
+			@extend .react;
+			color: lighten($javascript, 20%);
+		}
+	}
 
-        &:hover {
-            @extend .react;
-            color: lighten($javascript, 20%);
-        }
-    }
+	.less {
+		color: $less;
 
-    .less {
-        color: $less;
+		&:hover {
+			@extend .react;
+			color: lighten($less, 20%);
+		}
+	}
 
-        &:hover {
-            @extend .react;
-            color: lighten($less, 20%);
-        }
-    }
+	.sass {
+		color: $sass;
 
-    .sass {
-        color: $sass;
+		&:hover {
+			@extend .react;
+			color: lighten($sass, 20%);
+		}
+	}
 
-        &:hover {
-            @extend .react;
-            color: lighten($sass, 20%);
-        }
-    }
+	.html {
+		color: $html;
 
-    .html {
-        color: $html;
+		&:hover {
+			@extend .react;
+			color: lighten($html, 20%);
+		}
+	}
 
-        &:hover {
-            @extend .react;
-            color: lighten($html, 20%);
-        }
-    }
+	.css {
+		color: $css;
+	}
 
-    .css {
-        color: $css;
-    }
+	.git {
+		color: $git;
 
-    .git {
-        color: $git;
+		&:hover {
+			@extend .react;
+			color: lighten($git, 20%);
+		}
+	}
 
-        &:hover {
-            @extend .react;
-            color: lighten($git, 20%);
-        }
-    }
+	.sql {
+		color: $sql;
 
-    .sql {
-        color: $sql;
+		&:hover {
+			@extend .react;
+			color: lighten($sql, 20%);
+		}
+	}
 
-        &:hover {
-            @extend .react;
-            color: lighten($sql, 20%);
-        }
-    }
+	.node {
+		color: $node;
 
-    h2 {
-        font-size: 12rem;
-        padding: 20% 0;
-        color: $complement-green;
+		&:hover {
+			@extend .react;
+			color: lighten($node, 20%);
+		}
+	}
 
-        @media(max-width: 800px) {
-            display: none;
-        }
-    }
+	h2 {
+		font-size: 12rem;
+		padding: 20% 0;
+		color: $complement-green;
 
+		@media (max-width: 800px) {
+			display: none;
+		}
+	}
 }
