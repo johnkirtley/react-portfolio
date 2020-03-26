@@ -4,10 +4,14 @@ import { faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-162040815-1', { standardImplementation: true });
-ReactGA.pageview(window.location.pathname + window.location.search);
+const tracking = () => {
+	ReactGA.initialize('UA-162040815-1', { standardImplementation: true });
+	ReactGA.pageview(window.location.pathname + window.location.search);
+};
 
 const Skills = () => {
+	tracking();
+
 	return (
 		<div className='skills-container'>
 			<div className='top-row'>
