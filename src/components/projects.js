@@ -2,10 +2,14 @@ import React from 'react';
 import data from './projects.json';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-162040815-1', { standardImplementation: true });
-ReactGA.pageview(window.location.pathname + window.location.search);
+const tracking = () => {
+	ReactGA.initialize('UA-162040815-1', { standardImplementation: true });
+	ReactGA.pageview(window.location.pathname + window.location.search);
+};
 
 const Projects = () => {
+	tracking();
+
 	return (
 		<>
 			{data.projectData.map(project => (
