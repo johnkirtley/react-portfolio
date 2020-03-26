@@ -1,16 +1,8 @@
 import React, { useState } from 'react';
 import { useStaticKit, ValidationError } from '@statickit/react';
 import { sendContactEmail } from '@statickit/functions';
-import ReactGA from 'react-ga';
-
-const tracking = () => {
-	ReactGA.initialize('UA-162040815-1', { standardImplementation: true });
-	ReactGA.pageview(window.location.pathname + window.location.search);
-};
 
 const Contact = props => {
-	tracking();
-
 	const client = useStaticKit();
 
 	const [email, setEmail] = useState('');
