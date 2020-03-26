@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.scss';
 import { Route, Switch } from 'react-router-dom';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -16,6 +16,11 @@ import Contact from './components/contact';
 library.add(fab);
 
 function App() {
+	useEffect(() => {
+		ReactGA.initialize('UA-162040815-1');
+		ReactGA.pageview(window.location.pathname + window.location.search);
+	}, []);
+
 	return (
 		<StaticKitProvider site='de3e4d40dd43'>
 			<div>
